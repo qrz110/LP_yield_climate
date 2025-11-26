@@ -1,0 +1,50 @@
+Data quality report
+==================================================
+
+1. Data completeness statistics
+------------------------------
+Data completeness ratio statistics:
+  Mean: 1.000
+  Median: 1.000
+  Minimum: 0.915
+  Maximum: 1.000
+
+Data quality level distribution:
+  excellent: 9860 records (100.0%)
+  good: 1 records (0.0%)
+
+2. Missing data statistics
+------------------------------
+gs_tmax_mean: 0 missing (0.0%)
+gs_tmin_mean: 0 missing (0.0%)
+gs_tmean_mean: 0 missing (0.0%)
+gs_dtr_mean: 0 missing (0.0%)
+gs_hum_mean: 0 missing (0.0%)
+gs_vpd_mean: 0 missing (0.0%)
+gs_prep_total: 0 missing (0.0%)
+gs_days: 0 missing (0.0%)
+ngs_tmax_mean: 0 missing (0.0%)
+ngs_tmin_mean: 0 missing (0.0%)
+ngs_tmean_mean: 0 missing (0.0%)
+ngs_dtr_mean: 0 missing (0.0%)
+ngs_hum_mean: 1 missing (0.0%)
+ngs_vpd_mean: 1 missing (0.0%)
+ngs_prep_total: 0 missing (0.0%)
+ngs_days: 0 missing (0.0%)
+
+3. Data insufficient years statistics
+------------------------------
+All records have good data quality
+
+4. Special processing instructions
+------------------------------
+- 1980 as the starting year, non-growing season uses current year planting before data（no previous year data）
+- Other years' non-growing season includes previous year harvest after to current year planting before data
+- Cross-year harvest crops, growing season may include data from both current and next year
+
+5. Data quality suggestions
+------------------------------
+- Records with data completeness ratio < 0.70 are suggested to be excluded or used with caution
+- Records with data completeness ratio 0.70-0.90 can be used for analysis but need to pay attention to uncertainty
+- Records with data completeness ratio >= 0.90 have good data quality, can be used for reliable analysis
+- Suggestions to consider data quality weights in subsequent analysis
